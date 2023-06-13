@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="http://d3js.org/d3.v7.min.js"></script>
+    <title>Вариант 12</title>
+  </head>
+  <body>
+    <form id="graph-from">
+      <p>
+        Количество фигур:
+        <input type="number" name="amount" class="nums" />
+        <input type="button" value="Построить" id="drawButton" />
+      </p>
+    </form>
+    <svg class="pic"></svg>
+    <form id="next-form">
+      <p>
+        От:
+        <input type="number" name="by" class="g-nums" />
+        До:
+        <input type="number" name="until" class="g-nums" />
+        <input type="button" value="Построить график" id="graphButton" />
+      </p>
+    </form>
+    <svg class="graph"></svg>
+    <script src="main.js"></script>
+  </body>
+</html>
